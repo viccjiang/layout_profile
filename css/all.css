@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.pt-6{
+    padding-top: 48px;
+}
+
+.pb-1{
+    padding-bottom: 8px;
+}
+
+.pb-2{
+    padding-bottom: 16px;
+}
+
+.mb-1{
+    margin-bottom: 8px;
+}
+
+.mb-2{
+    margin-bottom: 16px;
+}
+
+.mb-3{
+    margin-bottom: 24px;
+}
+
+.mb-4{
+    margin-bottom: 32px;
+}
+
+.mb-5{
+    margin-bottom: 40px;
+}
+
+.mb-6{
+    margin-bottom: 48px;
+}
+
+.mb-9{
+    margin-bottom: 72px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.block{
+    display: block;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 94px;
+    border-bottom: 1px solid #000;
+}
+
+.subtitle{
+    font-size: 32px;
+    line-height: 45px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 8px;
+}
+
+.subtitle span{
+    font-size: 24px;
+    line-height: 28px;
+    color:#A00404;
+    padding-left: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* 為何無法垂直置中? 好像差一點點*/
+    vertical-align: middle; 
+
+}
+
+.darkSection{
+    background-color: #415165;
+}
+
+.skillContent{
+    width: 996px;
+    color: #fff;
+    
+    padding-top: 24px;
+    padding-bottom: 36px;
+}
+
+.subtitle-white{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border-bottom: 1px solid #fff;
+
+}
+
+.subtitle-white span{
+    font-size: 24px;
+    padding-left: 16px;
+    /* 為何無法垂直置中? 好像差一點點*/
+    vertical-align: middle; 
+}
+
+.skillList{
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+    width: 230px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+
+.skillList li{
+    margin-bottom: 20px;
+}
+
+
+.workList{
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin-left: 24px;
+    
+}
+
+
+
+.workList li{
+    margin-bottom: 24px;
+}
+
+.workList p{
+    font-size: 20px;
+    lh30px
+}
+
+.footer{
+    color: #fff;
+}
+
+
+.contactMethod{
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.contactList{
+padding: 36px;}
+
+.contactList li{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    margin-bottom: 16px;
+}
+
